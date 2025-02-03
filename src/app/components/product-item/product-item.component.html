@@ -1,0 +1,8 @@
+<div class="h-100">
+    <a href="/products/{{product.id}}" class="card d-flex flex-column h-100">
+        <img [src]="product.image" class="card-img-top" alt="{{ product.title }}">
+        <br>
+        <div class="card-content w-100 product-name">{{ product.title }} </div>
+        <button class="btn btn-primary fs-6 cart-button">Add to Cart</button>
+    </a>
+</div>
